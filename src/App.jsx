@@ -15,7 +15,7 @@ import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 
 function App() {
   return (
-    <><Router>
+    <Router basename='/'>
       <Navbar />
       <Routes>
         {/* redirect on startup */}
@@ -26,7 +26,7 @@ function App() {
         <Route path="/homework" element={<Homework />} />
         <Route path="/about" element={<About />} />
       </Routes>
-    </Router></>
+    </Router>
   );
 }
 
