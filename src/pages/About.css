@@ -1,0 +1,47 @@
+.about-page {
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Michroma", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+    text-align: justify;
+    max-width: 650px;
+    margin: 0 auto;
+    position: relative;
+
+    border: 1px solid rgba(0,0,0,0.25);
+    border-radius: 0px 20px 0px 20px;
+    background: fixed;
+    background-color: #1e1f27;
+    padding: 20px;
+}
+
+.title {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: -0.5em;
+}
+
+.about-text {
+    font-size: 1rem;
+    margin-top: 0.5em;
+    color: #d2d2d2;
+    align-self: flex-start;
+}
+
+.logo {
+    max-width: 20px;
+    max-height: 20px;
+
+    padding: 0px 10px 0px 0px;
+}
