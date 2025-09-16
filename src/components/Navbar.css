@@ -94,7 +94,7 @@
 }
 
 /* Style the links inside the dropdown */
-.dropdown-menu a {
+.dropdown-menu Link {
     color: #fff;
     padding: 8px 5px;
     text-decoration: none;
@@ -102,6 +102,6 @@
     text-align: center;
 }
 
-.dropdown-menu a:hover {
+.dropdown-menu Link:hover {
     background: rgba(100,108,255,0.15);
 }

@@ -11,13 +11,17 @@ import Navbar from './components/Navbar';
 import './index.css';
 
 // react dependencies
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 function App() {
   return (
-    <><Navbar /><Router>
+    <><Router>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* redirect on startup */}
+        <Route path="/" element={<Navigate to="/home"/>}></Route>
+
+        <Route path="/home" element={<Home />} />
         <Route path="/timetable" element={<Timetable />} />
         <Route path="/homework" element={<Homework />} />
         <Route path="/about" element={<About />} />

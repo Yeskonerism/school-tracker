@@ -1,5 +1,6 @@
 import './Navbar.css';
 import { useEffect, useState } from "react";
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     const [time, setTime] = useState("");
@@ -32,20 +33,20 @@ function Navbar() {
     return (
         <>
             <div className="navigation">
-                <a href="/" className='nav-button'>Home</a>
-                <a href="/timetable" className="nav-button">Timetable</a>
-                <a href="/homework" className="nav-button">Assignments</a>
-                <a href="/about" className="nav-button">About</a>
+                <Link to="/home" className='nav-button'>Home</Link>
+                <Link to="/timetable" className="nav-button">Timetable</Link>
+                <Link to="/homework" className="nav-button">Assignments</Link>
+                <Link to="/about" className="nav-button">About</Link>
 
                 <div className="right-section">
                     <div className="time">{time}</div>
                     <button onClick={toggleDropdown} className="dropdown">≡</button>                    
                     {isOpen && (
                         <div className='dropdown-menu'>
-                            <a href="/">Home</a>
-                            <a href="/timetable">Timetable</a>
-                            <a href="/homework">Assignments</a>
-                            <a href="/about">About</a>
+                            <Link to="/home">Home</Link>
+                            <Link to="/timetable">Timetable</Link>
+                            <Link to="/homework">Assignments</Link>
+                            <Link to="/about">About</Link>
                         </div>
                     )}
                 </div>
