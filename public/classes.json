@@ -1,0 +1,75 @@
+{
+    "monday": [
+        {
+            "id": 1,
+            "name": "Digital Technology",
+            "time-start": "11:15",
+            "time-end": "13:15",
+            "room": "TQ-2-043A"
+        }
+    ],
+    "tuesday": [
+        {
+            "id": 2,
+            "name": "Digital Technology",
+            "time-start": "11:15",
+            "time-end": "13:15",
+            "room": "TQ-2-043A"
+        },
+        {
+            "id": 3,
+            "name": "Sociology",
+            "time-start": "14:15",
+            "time-end": "16:45",
+            "room": "TQ-2-032A"
+        }
+    ],
+    "wednesday": [
+        {
+            "id": 4,
+            "name": "Digital Technology",
+            "time-start": "11:15",
+            "time-end": "12:15",
+            "room": "TQ-2-043A"
+        },
+        {
+            "id": 5,
+            "name": "Criminology",
+            "time-start": "12:15",
+            "time-end": "13:15",
+            "room": "TQ-2-041"
+        },
+        {
+            "id": 6,
+            "name": "Tutorial",
+            "time-start": "13:15",
+            "time-end": "14:15",
+            "room": "TQ-2-032A"
+        }
+    ],
+    "thursday": [
+        {
+            "id": 7,
+            "name": "Criminology",
+            "time-start": "11:15",
+            "time-end": "13:15",
+            "room": "TQ-2-041"
+        },
+        {
+            "id": 8,
+            "name": "Sociology",
+            "time-start": "14:15",
+            "time-end": "16:45",
+            "room": "TQ-2-032A"
+        }
+    ],
+    "friday": [
+        {
+            "id": 9,
+            "name": "Criminology",
+            "time-start": "11:15",
+            "time-end": "13:15",
+            "room": "TQ-2-041"
+        }
+    ]
+}

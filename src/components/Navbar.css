@@ -101,7 +101,3 @@
     transition: background 0.2s;
     text-align: center;
 }
-
-.dropdown-menu Link:hover {
-    background: rgba(100,108,255,0.15);
-}

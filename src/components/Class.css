@@ -1,0 +1,33 @@
+/* Layout for class widget */
+.class-widget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #111116;
+  border-radius: 0px 10px 0px 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  margin-top: 1rem;
+}
+
+.class-name {
+  flex: 1;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.class-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.class-time {
+  margin-bottom: 0.5rem;
+  font-size: 0.95em;
+}
+
+.class-room {
+  font-size: 0.9em;
+  color: #555;
+}
