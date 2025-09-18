@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+    text-align: justify;
+    min-width: 600px;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+
+    border: 1px solid rgba(0,0,0,0.25);
+    border-radius: 0px 20px 0px 20px;
+    background: fixed;
+    background-color: #1e1f27;
+    padding: 20px;
+}
+
+.new-class-widget {
+    margin: 0;
+    padding: 0;
+
+    max-height: 40vh;
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: "Michroma", sans-serif;
+}
